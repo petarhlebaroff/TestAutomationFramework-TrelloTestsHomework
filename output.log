@@ -1,0 +1,30 @@
+2023-09-01 11:15:10,224 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:15,200 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:15,202 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:15,203 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:15,205 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:17,346 INFO  [main] Clicking on element trello.loginPage.loginButton
+2023-09-01 11:15:21,503 INFO  [main] Clicking on element trello.loginPage.loginSubmitButton
+2023-09-01 11:15:29,531 INFO  [main] Clicking on element trello.header.create.menuButton
+2023-09-01 11:15:30,267 INFO  [main] Clicking on element trello.header.createBoard.dropDownButton
+2023-09-01 11:15:30,965 INFO  [main] Clicking on element trello.create.board.submitButton
+2023-09-01 11:15:32,978 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:32,978 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:32,979 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:33,152 INFO  [main] Clicking on element trello.boardsPage.asideBoard
+2023-09-01 11:15:33,294 INFO  [main] Clicking on element trello.addNewCard.Button
+2023-09-01 11:15:33,582 INFO  [main] Clicking on element trello.addCard.submitButton
+2023-09-01 11:15:33,737 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:33,737 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:33,737 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:34,266 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:34,267 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:34,267 INFO  [main] Initializing WebDriver
+2023-09-01 11:15:34,287 INFO  [main] Clicking on element trello.boardPage.threeDotMenuButton
+2023-09-01 11:15:34,452 INFO  [main] Clicking on element trello.threeDotMenu.closeBoard.button
+2023-09-01 11:15:34,565 INFO  [main] Clicking on element trello.threeDotsMenu.confirm.closeBoardButton
+2023-09-01 11:15:36,962 INFO  [main] Clicking on element trello.threeDotsMenu.permanentlyDeleteBoard
+2023-09-01 11:15:37,134 INFO  [main] Clicking on element trello.threeDotsMenu.closeBoardDeleteBoard.ConfirmButton
+2023-09-01 11:15:38,961 INFO  [main] Clicking on element trello.pressTrelloWorkspace.button
+2023-09-01 11:15:39,102 INFO  [main] Clicking on element trello.workspace.boards.button
+2023-09-01 11:15:40,384 INFO  [main] Quitting WebDriver

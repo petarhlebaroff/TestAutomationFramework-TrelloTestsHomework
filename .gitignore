@@ -1,0 +1,5 @@
+/testframework/target/
+/testframework/.idea/
+
+# Project exclude paths
+/target/
