@@ -70,15 +70,20 @@ public class BoardPage extends BaseTrelloPage {
         actions.clickElement("trello.threeDotsMenu.closeBoardDeleteBoard.ConfirmButton");
     }
 
-    public void assertBoardDeleted(String boardName) {
-        actions.waitForElementPresent("trello.pressTrelloWorkspace.button");
-        actions.clickElement("trello.pressTrelloWorkspace.button");
+    public void assertBoardDeleted(String workspaceName) {
+        actions.waitForElementPresent("trello.pressTrelloWorkspace.button", workspaceName);
+        actions.clickElement("trello.pressTrelloWorkspace.button", workspaceName);
 
         actions.waitForElementPresent("trello.workspace.boards.button");
         actions.clickElement("trello.workspace.boards.button");
 
         actions.waitForElementPresent("trello.workspace.createYourFirstBoard.button");
 
+    }
+
+    public String getWorkspaceName(){
+
+        return driver.findElement(By.xpath("//p[@class='pJn5CPuDugCNoN']")).getText();
     }
 }
 

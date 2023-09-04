@@ -11,12 +11,14 @@ import pages.trello.BoardsPage;
 import org.junit.Test;
 
 import static com.telerikacademy.testframework.Utils.getUIMappingByKey;
+import static com.telerikacademy.testframework.Utils.getWebDriver;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class BoardTest extends BaseTest {
 
     private BoardPage boardPage;
     private BoardsPage boardsPage;
+
 
     @Before
     public void pagesSetup() {
@@ -30,6 +32,7 @@ public class BoardTest extends BaseTest {
         login();
         boardsPage.createBoard();
         boardPage.assertAddListExists();
+
     }
 
     @Test
@@ -61,10 +64,13 @@ public class BoardTest extends BaseTest {
     @Test
     public void test4_deleteBoardWhenDeleteButtonIsClicked() {
 
+        String workspaceName = boardPage.getWorkspaceName();
+        System.out.println(workspaceName);
+
         String boardName = getUIMappingByKey("trello.boardName");
 
         boardPage.deleteBoard(boardName);
 
-        boardPage.assertBoardDeleted(boardName);
+        boardPage.assertBoardDeleted(workspaceName);
     }
 }
