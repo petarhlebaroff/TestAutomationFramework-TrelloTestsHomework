@@ -1,17 +1,13 @@
 package test.cases.trello;
 
-import org.asynchttpclient.util.Assertions;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
-import org.junit.runner.RunWith;
+import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import pages.trello.BoardPage;
 import pages.trello.BoardsPage;
 
-import org.junit.Test;
-
 import static com.telerikacademy.testframework.Utils.getUIMappingByKey;
-import static com.telerikacademy.testframework.Utils.getWebDriver;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class BoardTest extends BaseTest {
